@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+sold_book
+
+{% endblock title %}
+{% block body %}
+<div class="container">
+
+    <form action="/sold_book" method="POST">
+        {% csrf_token %}
+
+        <label for="bookname\">book name</label><br>
+        <input type="text" id="book_name" name="book_name" placeholder="physical chemistry"><br>
+
+        <label for="writer">Writer</label><br>
+        <input type="text" id="writer" name="writer" placeholder="O.P.tandan"><br>
+
+        <label for="standard">Standard</label><br>
+        <input type="text" id="standard" name="standard" placeholder="intermediate"><br>
+
+        <label for="course">Course</label><br>
+        <input type="course" id="course" name="course" placeholder="course"><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset">
+    </form>
+
+</div>
+
+{% endblock body %}

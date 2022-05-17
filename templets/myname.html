@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+contact
+{% endblock title %}
+{% block style %}
+
+{% endblock style %}
+{% block body %}
+<div class ="container">
+    <form action="/myname" method="POST">
+        {% csrf_token %}
+        <label for="myname">myname</label><br>
+        <input type="text" id="myname" name="myname"><br>
+        <input type="submit" value="Submit">
+    </form> 
+</div>
+       
+{% endblock body %}

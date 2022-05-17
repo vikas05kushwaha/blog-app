@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://udrc.lkouniv.ac.in/Fee/FeeReceipt -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head runat="server"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Fee Receipt | Lucknow University</title>
+    <style type="text/css">
+        table {
+            margin-bottom: 15px !important;
+        }
+
+            table td {
+                padding: 2px 3px;
+                font-size: 14px;
+            }
+
+        .btn {
+            background-color: red;
+            border: 2px solid red;
+            border-radius: 4px;
+            color: white;
+            padding: 2px 10px;
+            text-decoration: none;
+        }
+
+        .pic {
+            border: 1px solid #ccc;
+            padding: 1px;
+        }
+    </style>
+    <style media="print">
+        .disp {
+            display: none;
+        }
+    </style>
+    <style media="print">
+        .disp1 {
+            display: block;
+        }
+    </style>
+
+    <!--Added for fee recipt-->
+    <style type="text/css">
+        .wrapper {
+            width: 80%;
+            height: auto;
+            overflow: hidden;
+            margin: 0px auto;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+
+        .receipt {
+            margin: 0px auto;
+            border-collapse: collapse;
+            background-image: url(../images/watermark.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: auto 70%;
+        }
+
+            .receipt td, .receipt th {
+                border: 2px solid #000;
+                padding: 2px 8px;
+            }
+
+            .receipt th {
+                background-color: #e7e7e7;
+            }
+
+        table {
+            margin-bottom: 15px !important;
+        }
+
+            table td {
+                padding: 2px 3px;
+                font-size: 14px;
+            }
+
+        .btn {
+            background-color: red;
+            border: 2px solid red;
+            border-radius: 4px;
+            color: white;
+            padding: 2px 10px;
+            text-decoration: none;
+        }
+
+        .pic {
+            border: 1px solid #ccc;
+            padding: 1px;
+        }
+
+        .watermark {
+            font-size: 50px;
+            opacity: 0.1;
+            color: BLACK;
+            position: absolute;
+            top: 35%;
+            left: 22%;
+            width: 85%;
+            transform: rotate(-22deg);
+        }
+
+        @media print {
+            .watermark {
+                font-size: 75px;
+                left: 18%;
+                width: 100%;
+            }
+        }
+    </style>
+
+
+    <script src="./Fee Receipt _ Lucknow University_files/jquery.min.js"></script>
+
+</head>
+<body style="font-family: &#39;Arial&#39;;">
+    <form id="form1" runat="server">
+        <div>
+            <table width="100%" style="font-family: &#39;Arial&#39;; margin-bottom: 0px !important">
+                <tbody><tr>
+                    <td colspan="4">
+                        <a href="https://udrc.lkouniv.ac.in/Student/Dashboard" class="disp btn" id="a" style="float: left">Close</a>
+                        <a href="javascript:window.print();" class="disp btn" style="float: right">Print</a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+        <!--start fee receipt-->
+
+        <table class="Content" width="100%" style="font-family: &#39;Arial&#39;; margin-bottom: 0px !important">
+
+            <tbody><tr>
+                <td width="20%">
+                    <img width="102" src="./Fee Receipt _ Lucknow University_files/AdmitCardLogo_.jpg" alt="Admit Card Logo"></td>
+                <td colspan="2" style="text-align: center;"><strong style="font-size: 28px; text-decoration: underline;">UNIVERSITY    OF LUCKNOW</strong>
+                    <br>
+                    <strong style="font-size: 19px;">Online Fee Submission 2021</strong><br>
+                    <strong style="font-size: 17px;">Fee Receipt</strong><br>
+                </td>
+                <td width="20%" align="right" valign="bottom"></td>
+
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                <td colspan="4" align="left">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody><tr>
+                            <td width="25%"><strong>Student ID</strong></td>
+                            <td width="1%"><strong>:</strong></td>
+                            <td width="33%">
+                                1900000226</td>
+
+                        </tr>
+                        <tr>
+                            <td width="25%"><strong>Enrollment No</strong></td>
+                            <td width="1%"><strong>:</strong></td>
+                            <td width="33%">
+                                </td>
+
+                        </tr>
+                        <tr>
+                            <td width="25%"><strong>Admission Year</strong></td>
+                            <td width="1%"><strong>:</strong></td>
+                            <td width="33%">
+                                2018</td>
+                            <td width="32%" align="left"><strong>Receipt No.</strong></td>
+                            <td width="1%"><strong>:</strong></td>
+
+                            <td width="33%">2201527</td>
+                        </tr>
+                        <tr>
+                            <td width="16%"><strong>Program</strong></td>
+
+                            <td width="1%"><strong>:</strong></td>
+
+
+                            <td width="33%">
+                                Engineering</td>
+                            <td width="32%" align="left"><strong>Bank Ref. No.</strong></td>
+
+                            <td width="1%"><strong>:</strong></td>
+
+
+                            <td width="17%">LUUDRC0000003699</td>
+                        </tr>
+                        <tr>
+                            <td width="16%"><strong>Name</strong></td>
+                            <td width="1%"><strong>:</strong></td>
+                            <td width="33%">
+                                Vikas Kushwaha 
+                            </td>
+                            <td width="32%" align="left"><strong>Session</strong></td>
+                            <td width="1%"><strong>:</strong></td>
+                            <td width="17%">2021-22</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Father's Name</strong></td>
+                            <td><strong>:</strong></td>
+                            <td width="33%">Mr. Raj kishor kushwaha </td>
+                            <td width="32%" align="left"><strong>Semester/Year</strong></td>
+                            <td width="1%"><strong>:</strong></td>
+                            <td width="17%">8</td>
+                        </tr>
+ <tr>
+                            <td><strong>Amount (Rs.)</strong></td>
+                            <td><strong>:</strong></td>
+                            <td colspan="4">
+                                60080.00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Payment Mode</strong></td>
+                            <td><strong>:</strong></td>
+                            <td>
+                                Online</td>
+                            <td width="32%" align="left"><strong>Transaction Date</strong></td>
+                            <td width="1%"><strong>:</strong></td>
+                            <td width="17%">08/05/2022</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Subject</strong></td>
+                            <td><strong>:</strong></td>
+                            <td colspan="4">
+Computer Science &amp; Engineering
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+            <table width="100%" class="receipt">
+                <tbody><tr>
+                    <th width="6%">S.No.</th>
+                    <th width="78%">Subject</th>
+                    <th width="16%">Amount(Rs.)</th>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <p>1.</p>
+                        <p>2.</p>
+                        <p>3.</p>
+                        <p>4.</p>
+                        <p>5.</p>
+                        <p>6.</p>
+                        <p>7.</p>
+                        <p>8.</p>
+                        <p>9.</p>
+                        <p>10.</p>
+                        <p>11.</p>
+                        <p>12.</p>
+                        <p>13.</p>
+                        <p>14.</p>
+                        <p>15.</p>
+                        <p>16.</p>
+                        <p>17.</p>
+                        <p>18.</p>
+                        <p>19.</p>
+                        <p>20.</p>
+                        <p>21.</p>
+                        <p>22.</p>
+                        
+
+
+                    </td>
+                    <td>
+                        <p>Enrollment Fee</p>
+                        <p>Admission Fee</p>
+                        <p>Games Fee</p>
+                        <p>Library Fee</p>
+                        <p>Tuition Fee</p>
+                        <p>Student Union Fee</p>
+                        <p>Delegacy Fee</p>
+                        <p>Poor Student Fund</p>
+                        <p>Examination Fee</p>
+                        <p>Development Fee</p>
+                        <p>Cultural Activities Fee</p>
+                        <p>Student Medical Relief. Fund</p>
+                        <p>Identity Card Fee</p>
+                        <p>College caution Money</p>
+                        <p>Municiple Fee</p>
+                        <p>Student Additional</p>
+                        <p>Lib Caution money</p>
+                        <p>Lab/Etc. Fee</p>
+                        <p>Subject Fee (if any)</p>
+                        <p>Hostel Application Fee</p>
+                        <p>Government Aided Fee (minus)</p>
+                        <p>Fine</p>
+                        
+
+
+                    </td>
+                    <td align="right">
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            300.00
+                        </p>
+                        <p>
+                            100.00
+                        </p>
+                        <p>
+                            300.00
+                        </p>
+                        <p>
+                            30000.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            30.00
+                        </p>
+                        <p>
+                            100.00
+                        </p>
+                        <p>
+                            4000.00
+                        </p>
+                        <p>
+                            25000.00
+                        </p>
+                        <p>
+                            100.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            50.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        <p>
+                            - 0.00
+                        </p>
+                        <p>
+                            0.00
+                        </p>
+                        
+
+
+                    </td>
+                </tr>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th style="text-align: left;">Total (In Rs.)&nbsp;&nbsp;</th>
+                        <th style="text-align: right;">
+                            60080.00</th>
+                    </tr>
+
+
+                
+            </tbody></table>
+
+        <h6 align="center">*This is System Generated Report. No need to signature.*</h6>
+
+
+        <!--end fee receipt-->
+        <p style="page-break-after: always;"></p>
+
+
+    </form>
+
+
+</body></html>

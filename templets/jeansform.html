@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+jeansform
+{% endblock title %}
+{% block style %}
+
+{% endblock style %}
+{% block body %}
+<div class ="container">
+    <form action="/jeansform" method="POST">
+        {% csrf_token %}
+        <label for="brand">Brand</label><br>
+        <input type="text" id="brand" name="brand"><br>
+        <label for="desc">desc</label><br>
+        <input type="textarea" id="desc" name="desc"><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset">
+    </form> 
+</div>
+       
+{% endblock body %}
